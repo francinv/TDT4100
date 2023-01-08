@@ -4,7 +4,17 @@
 
 package uke2;
 
-/* 
+// Import - vi må fortelle Java hva slags ting vi bruker
+// 
+import java.util.ArrayList;
+import java.util.List;
+/*
+
+Hvorfor både ArrayList og List? Det kommer vi til senere.
+Inntil videre kan du tenke: Jeg ønsker å lage en List, men velger å bruke klassen
+ArrayList til å lage den. Senere lærer dere at man kan ha ulike klasser som
+gjør den samme jobben, men der noen er lurere enn andre i ulike situasjoner. 
+
 For å kjøre noe i Java må en ha mer 'stuff'.
 Man må lage en 'klasse'. Hvordan vi gjør det kommer vi tilbake til, nå skal dere
 bare forsøke å se hva som skjer. Se likheter og forskjeller.
@@ -13,21 +23,8 @@ En klasse kan ha et sett med metoder knyttet til seg.
 En metode er en funksjon som er knyttet til et objekt.
 Når du brukte liste.append() i Python brukte du egentlig metoden append, som finnes
 i klassen List i Python.
-*/ 
 
-// Import - vi må fortelle Java hva slags ting vi bruker
-// 
-import java.util.ArrayList;
-import java.util.List;
-// Hvorfor både ArrayList og List? Det kommer vi til senere.
-// Inntil videre kan du tenke: Jeg ønsker å lage en List, men velger å bruke klassen
-// ArrayList til å lage den. Senere lærer dere at man kan ha ulike klasser som
-// gjør den samme jobben, men der noen er lurere enn andre i ulike situasjoner. 
-
-
-// Det finnes en konvensjon for hvordan ting skal navngis. Typisk er camelCase.
-// Klasser starter med store bokstaver, objekter og metoder med liten.
-// https://www.javatpoint.com/java-naming-conventions
+*/
 
 public class Liste {
 
