@@ -1,4 +1,7 @@
-def tell_ned(tall:int):
+
+
+
+def tell_ned(tall:int) -> int:
     return tall - 1
 
 
