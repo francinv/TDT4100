@@ -15,7 +15,7 @@ Inntil videre kan du tenke: Jeg ønsker å lage en List, men velger å bruke kla
 ArrayList til å lage den. Senere lærer dere at man kan ha ulike klasser som
 gjør den samme jobben, men der noen er lurere enn andre i ulike situasjoner. 
 
-For å kjøre noe i Java må en ha mer 'stuff'.
+gFor å kjøre noe i Java må en ha mer 'stuff'.
 Man må lage en 'klasse'. Hvordan vi gjør det kommer vi tilbake til, nå skal dere
 bare forsøke å se hva som skjer. Se likheter og forskjeller.
 

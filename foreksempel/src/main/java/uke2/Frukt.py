@@ -1,3 +1,11 @@
+frukt = [
+    ["eple", 2],
+    ["banan", 1],
+    ["iskaffe",2],
+    ["jordbær", 4]
+]
+
+
 '''
 Et eksempel på hvordan en kan lage klasser i Python.
 Jeg synes eeegentlig at koding av klasser er enklere å lese i Java enn i Python.
@@ -27,6 +35,9 @@ class Frukt:
     def legg_til(self,antall):
         self.antall += antall 
 
+    # En klasses tekstrepresentasjon i Python (som .toString() i Java)
+    # def __repr__(self) -> str:
+    #     return f'{self.type} ({self.antall})'
 
 # Mens en i Java må bruke Frukt f1 = new Frukt("Appelsin", 2)
 f1 = Frukt('Appelsin', 2)    
@@ -41,4 +52,11 @@ print(f2.getType(),":",f2.getAntall())
 # Legge til en banan:
 f2.legg_til(1)
 print(f2.getType(),":",f2.getAntall())
+
+# Vi kan legge ulike frukt inn i en liste
+frukt = []
+frukt.append(f1)
+frukt.append(f2)
+
+print(frukt)
 

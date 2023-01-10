@@ -6,7 +6,8 @@ package uke2; // Dette sier at klassen Frukt hører til i 'pakken' uke2.
 public class Frukt {
 
 	String type;   // Navnet på hver frukt 
-	double antall; // Mengden. Double betyr flyttall. int for bare hele frukt.
+	double antall; // Mengden. Double betyr flyttall (float i Python). 
+	# int for bare hele frukt.
 
 	// Dette kalles en konstruktør. Den sier noe om hvordan man kan lage nye
 	// objekter av typen Frukt. Vi kan ha flere av dem. Her er det bare en,
@@ -18,8 +19,9 @@ public class Frukt {
 
 	// Dette kalles en getter. Det er ikke høflig, ei heller mulig (ofte) å spørre
 	// en frukt hvor mange den er, sånn direkte. Man må gå via en getter.
+	// Mer om hvorfor om en uke eller to!
 	public double getAntall() {
-		return antall;
+		return antall; // Trenger ikke this.antall siden det er åpenlyst, men lov.
 	}
 
 	// Det samme som for get Antall
@@ -29,6 +31,7 @@ public class Frukt {
 
 	public void leggTil(double antall) {
 		this.antall += antall; // Oppdater denne frukten med antall
+		// Her må vi ha this.antall på høyre side, siden begge variablene har samme navn.
 	}
 
 	// Følgende metode er spesiell. Inntil videre kan dere bare tenke at det er main-
