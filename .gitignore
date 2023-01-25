@@ -17,3 +17,4 @@ target/
 
 # This needs to be ignored because it is modified automatically by VSCode
 .vscode/launch.json
+
