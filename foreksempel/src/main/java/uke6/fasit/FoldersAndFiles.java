@@ -20,7 +20,13 @@ public class FoldersAndFiles {
         for (Object object : ff) {
             System.out.println("Sjekker "+object);
             if (object.toString().contains(pattern)) {
-                System.out.println(object);
+                if (object instanceof Folder) {
+                    System.out.println("First hit was a Folder!");
+                }
+                else if (object instanceof File) {
+                    System.out.println("First hit was a File!");
+                }
+        
                 return object;
             }
         }
@@ -36,7 +42,6 @@ public class FoldersAndFiles {
         faf.addFile(new File("fil3.txt", home));
         System.out.println(faf.findFirstHit("3"));
         Object hit = faf.findFirstHit("bor");
-        System.out.println(hit.getClass());
         Folder myFolder = (Folder) hit;
     }
 }
