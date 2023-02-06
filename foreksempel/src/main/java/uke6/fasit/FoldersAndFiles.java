@@ -20,12 +20,19 @@ public class FoldersAndFiles {
         for (Object object : ff) {
             System.out.println("Sjekker "+object);
             if (object.toString().contains(pattern)) {
+
+                // To måter å vite originalklassen som laget objektet:
                 if (object instanceof Folder) {
                     System.out.println("First hit was a Folder!");
                 }
-                else if (object instanceof File) {
+                else if (object.getClass() == File.class) {
                     System.out.println("First hit was a File!");
                 }
+                // Hva er best? Tja. https://stackoverflow.com/questions/4989818/instanceof-vs-getclass
+                // Og: The main difference is that instanceof will return true if o has inheritance of the 
+                // object whereas getClass comparation will check if both objects are strictly the same
+                // class. Mao: det kommer an på hva en forsøker å gjøre.
+
         
                 return object;
             }
