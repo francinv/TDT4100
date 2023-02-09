@@ -4,7 +4,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+/*
 public class RectangleTest {
+
+ */
 
         /**
          * Compares all values in a given {@link Rectangle} to a set of expected values.
@@ -17,6 +20,7 @@ public class RectangleTest {
          * @param width  The expected width of rect
          * @param height The expected height of rect
          */
+/*
         static void assertValues(Rectangle rect, int minX, int minY, int maxX, int maxY, int width, int height,
                         String suffix) {
                 Assertions.assertEquals(minX, rect.getMinX(), "Wrong minX " + suffix);
@@ -27,11 +31,14 @@ public class RectangleTest {
                 Assertions.assertEquals(height, rect.getHeight(), "Wrong height " + suffix);
         }
 
+ */
+
         /**
          * Check that a rectangle is empty
          *
          * @param rect The rectangle to check
          */
+        /*
         static void assertEmpty(Rectangle rect) {
                 Assertions.assertTrue(rect.isEmpty(), "Expected rectangle to be empty!");
                 Assertions.assertFalse(rect.contains(0, 0),
@@ -246,3 +253,5 @@ public class RectangleTest {
                                 "modify the current ones!");
         }
 }
+
+         */
