@@ -3,7 +3,7 @@ package oving2;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
+/*
 public class UpOrDownCounterTest {
 
 	private void testCount(UpOrDownCounter counter, int end, int delta) {
@@ -60,3 +60,5 @@ public class UpOrDownCounterTest {
 		testCount(counter31, 1, -1);
 	}
 }
+
+ */

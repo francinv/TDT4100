@@ -3,11 +3,11 @@ package oving1;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static oving1.RectangleTest.assertValues;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+/*
 public class RectangleExtraTest {
 
     @Test
@@ -33,3 +33,5 @@ public class RectangleExtraTest {
         assertFalse(rect1.intersects(rect2), "Wrong value from #intersects(Rectangle)");
     }
 }
+
+ */

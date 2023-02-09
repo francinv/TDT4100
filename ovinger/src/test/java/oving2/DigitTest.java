@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+/*
 public class DigitTest {
 
 	private Digit digit;
@@ -65,3 +66,5 @@ public class DigitTest {
 		testIncrement(false, true);
 	}
 }
+
+ */

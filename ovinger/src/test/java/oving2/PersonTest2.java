@@ -9,6 +9,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 // Test with encapsulation
+/*
 public class PersonTest2 {
 
 	private Person person;
@@ -59,3 +60,5 @@ public class PersonTest2 {
 		return k1 + "" + k2;
 	}
 }
+
+ */

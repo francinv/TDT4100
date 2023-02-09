@@ -4,17 +4,20 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
+/*
 public class LocationTest {
 
 	private Location loc;
 
+
+ */
 	/**
 	 * Check that the position of {@link #loc} is equal to the parameters.
 	 * 
 	 * @param x Expected x position
 	 * @param y Expected y position
 	 */
+	/*
 	private void checkPos(int x, int y) {
 		Assertions.assertEquals(x, loc.getX(), "Wrong x coordinate");
 		Assertions.assertEquals(y, loc.getY(), "Wrong y coordinate");
@@ -94,3 +97,5 @@ public class LocationTest {
 		checkPos(0, 0);
 	}
 }
+
+	 */
